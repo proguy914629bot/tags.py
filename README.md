@@ -40,10 +40,12 @@ tag.get_tag("Insert-Name-Here").id
 
 #Way 2:
 tag.get_id("Insert-Name-Here")
+
+#All these ways are the same. get_tag.id returns tag.get_id.
 ```
 
 ## Contribution:
 You can contribute by forking this repository, or cloning this repository. This is fully open-sourced in [Github](https://github.com/proguy914629bot/tags.py).
 
-License:
+## License:
 MIT
