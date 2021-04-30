@@ -12,7 +12,7 @@ with open("README.md") as f:
 
 setuptools.setup(
     name='tags.py',
-    author='proguy914629'
+    author='proguy914629',
     version = ver,
     url='https://github.com/proguy914629bot/tags.py',
     license='MIT',
