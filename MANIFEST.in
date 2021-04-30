@@ -1,0 +1,3 @@
+include tags/*.py
+include LICENSE
+include README.md
