@@ -37,7 +37,7 @@ class Tags:
 
         for alias in aliases:
             self._tags[alias] = result
-            self._tags_id[str(id(name))] = name
+            self._tags_id[str(id(alias))] = name
             if name not in self._aliases:
                 self.aliases[name] = []
 
@@ -57,7 +57,7 @@ class Tags:
         for alias in aliases:
             if alias not in self._tags:
                 self._tags[alias] = key
-                self._tags_id[str(id(name))] = name
+                self._tags_id[str(id(alias))] = name
             if name not in self._aliases:
                 self._aliases[name] = []
 
