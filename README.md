@@ -45,5 +45,5 @@ tag.get_id("Insert-Name-Here")
 ## Contribution:
 You can contribute by forking this repository, or cloning this repository. This is fully open-sourced in [Github](https://github.com/proguy914629bot/tags.py).
 
-License:
+## License:
 MIT
