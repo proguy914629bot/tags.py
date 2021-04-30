@@ -2,7 +2,7 @@ import setuptools
 import re
 
 ver = ''
-with open("tags/__init__.py") as f:
+with open("src/tags/__init__.py") as f:
     ver = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE).group(1)
 
 readme = ''
