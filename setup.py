@@ -20,6 +20,6 @@ setuptools.setup(
     long_description=readme,
     long_description_content_type="text/markdown",
     python_requires=">=3.5",
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src")
+    #package_dir={"": "src"},
+    packages=["tags"]
 )
